@@ -29,8 +29,7 @@ body {
 }
 
 .cardForm {
-  width: 30%;
-  height: 18rem;
+  width: 40%;
   border-radius: 10px;
   background-color: #eeeeee;
   text-align: center;
@@ -38,18 +37,27 @@ body {
 
 .cardForm form {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
 .cardForm input {
+  width: 70%;
+  font-size: 15px;
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
   border: none;
   outline: none;
+  text-align: center;
 }
 
-.cardForm button {
+.cardForm label {
+  font-size: 13px;
+}
+
+.cardForm .btn {
   text-align: center;
   background-color: #333333;
   color: #f6f6f6;
@@ -58,5 +66,16 @@ body {
   border-radius: 10px;
   border: 0;
   width: 10rem;
+  cursor: pointer;
+}
+
+.cardForm .btnReset {
+  text-align: center;
+  background-color: #333333;
+  color: #f6f6f6;
+  border-radius: 10px;
+  border: 0;
+  width: 9rem;
+  padding: 8px;
   cursor: pointer;
 }
