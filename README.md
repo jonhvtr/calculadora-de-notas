@@ -27,13 +27,7 @@ Este projeto é uma calculadora de notas simples, desenvolvida com HTML, CSS (Bo
 
 ## Estrutura do Projeto
 
-calculadora-notas/
-├── index.html
-├── style.css
-└── script.js
-
-- `index.html`: Estrutura HTML da calculadora.
-- `style.css`: Estilos CSS personalizados e do Bootstrap.
+- `index.html`: Estrutura HTML da calculadora, estilos do Bootstrap.
 - `script.js`: Lógica JavaScript da calculadora.
 
 ## Como Executar
@@ -53,14 +47,6 @@ calculadora-notas/
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais detalhes.
-
 ## Autor
 
-João Victor(Jonhvtr_Dev)
-
-## Agradecimentos
-
-Agradecimentos especiais a todos que contribuíram para este projeto.
+João Victor - (Jonhvtr_Dev)
