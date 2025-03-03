@@ -59,7 +59,7 @@ Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para obter m
 
 ## Autor
 
-\João Victor(Jonhvtr_Dev)
+João Victor(Jonhvtr_Dev)
 
 ## Agradecimentos
 
