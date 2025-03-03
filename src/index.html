@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="/src/styles/style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    /> -->
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container p-3 w-25">
+      <div id="messageError"></div>
+      <div class="card">
+        <h5 class="card-header d-flex justify-content-center">
+          Calculadora de Notas
+        </h5>
+        <div class="card-body">
+          <p class="card-title fs-6">
+            Escolha entre as opções de notas por <strong>trimestre</strong> ou
+            <strong>bimestre</strong>
+          </p>
+          <form class="" action="">
+            <legend>Notas</legend>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                Trimestre
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+                checked
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                Bimestre
+              </label>
+            </div>
+            <div class="divisoria">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Nota 1º</label
+                >
+                <input
+                  type="text"
+                  name="nota1"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Nota 2º</label
+                >
+                <input
+                  type="text"
+                  name="nota2"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Nota 3º</label
+                >
+                <input
+                  type="text"
+                  name="nota3"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                />
+              </div>
+              <div class="mb-3" id="nota4">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Nota 4º</label
+                >
+                <input
+                  type="text"
+                  name="nota4"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                />
+              </div>
+            </div>
+            <!--Divsoria-->
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label"
+                >Média mínima para aprovação</label
+              >
+              <input
+                type="text"
+                name="mediaMinima"
+                class="form-control"
+                id="formGroupExampleInput"
+              />
+            </div>
+          </form>
+          <button class="btn btn-primary" type="submit" onclick="calculate()">
+            Calcular
+          </button>
+          <button type="button" class="btn btn-outline-dark" onclick="reset()">
+            Limpar
+          </button>
+        </div>
+      </div>
+
+      <div class="card mt-4">
+        <h5 class="card-header d-flex justify-content-center">Resultado</h5>
+        <form class="p-3">
+          <div class="mb-3">
+            <label
+              for="formGroupExampleInput"
+              class="form-label d-flex justify-content-center"
+              >Média anual</label
+            >
+            <h5 id="result" class="d-flex justify-content-center"></h5>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="/src/js/app.js"></script>
+  <script src="/src/js/mask.js"></script>
+  <script src="/src/js/func.js"></script>
+</html>
